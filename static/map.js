@@ -1,5 +1,5 @@
 var base = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-        attribution: '<a href="https://www.openstreetmap.org/copyright">&copy OpenStreetMap</a> <a href="https://carto.com/attributions">&copy CARTO</a>',
+        attribution: false,
         detectRetina: true,
         subdomains: 'abcd',
         minZoom: 2,

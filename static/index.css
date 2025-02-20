@@ -90,9 +90,18 @@
         z-index:999;
         padding: 0 10px;
     }
+    .myStats table {
+        width: 100%;
+    }
     .myStats tr {
         display: flex;
         align-items: center;
+    }
+    .myStatsHeaderImg {
+        line-height: 1;
+    }
+    .myStatsHeaderImg > img {
+        vertical-align: top;
     }
     /* Some CSS will always be overwritten, avoiding it with all: initial; */
     .myStatsHeader {
@@ -125,6 +134,13 @@
         text-align:right;
         margin-left: 40px;
         text-align:right
+    }
+    .myStatsHeaderImg.partner {
+        margin: 0 auto;
+    }
+    .myStatsHeaderRight {
+        margin-left: auto;
+        font-size: 9px;
     }
     .container-fluid {
         height:27%;
