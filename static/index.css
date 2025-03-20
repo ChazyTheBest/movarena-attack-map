@@ -99,6 +99,7 @@
     }
     .myStatsHeaderImg {
         line-height: 1;
+        padding: 10px;
     }
     .myStatsHeaderImg > img {
         vertical-align: top;
