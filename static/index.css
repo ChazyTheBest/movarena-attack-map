@@ -1,5 +1,6 @@
     html {
         background:black;
+        font-family: "Oswald", sans-serif;
     }
     body {
         height:100%;
@@ -114,7 +115,8 @@
     .myStatsHeader {
         all: initial;
         position: relative;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
         font-size: 14px;
         font-weight: bold;
         color: white;
@@ -130,7 +132,8 @@
     .myStatsValue {
         all: initial;
         position: relative;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
         font-size: 14px;
         font-weight: bold;
         color: white;
