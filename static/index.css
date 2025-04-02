@@ -1,8 +1,8 @@
     html {
         background:black;
-        font-family: "Oswald", sans-serif;
     }
     body {
+        font-family: "Oswald", sans-serif;
         height:100%;
         width:100%;
         margin:0;
@@ -111,11 +111,8 @@
             display: none;
         }
     }
-    /* Some CSS will always be overwritten, avoiding it with all: initial; */
     .myStatsHeader {
-        all: initial;
         position: relative;
-        font-family: "Oswald", sans-serif;
         font-optical-sizing: auto;
         font-size: 14px;
         font-weight: bold;
@@ -128,11 +125,8 @@
         margin-left: 0px;
         text-align:right
     }
-    /* The value will be displayed in white for better readability */
     .myStatsValue {
-        all: initial;
         position: relative;
-        font-family: "Oswald", sans-serif;
         font-optical-sizing: auto;
         font-size: 14px;
         font-weight: bold;
